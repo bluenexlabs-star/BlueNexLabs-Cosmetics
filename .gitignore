@@ -1,0 +1,77 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+out/
+
+# uploaded article images (keep folder)
+/public/uploads/articles/*
+!/public/uploads/articles/.gitkeep
+
+# Vial backups stay local. Composited slug PNGs in public/images/products/*.png
+# must stay tracked — Vercel 404s if those files are not git added and pushed.
+/public/images/products/_originals/
+/public/images/products/_download/
+
+# Article cover originals stay local. Slug PNGs in public/images/articles/*.png
+# must stay tracked — Vercel 404s if those files are not git added and pushed.
+/public/images/articles/_originals/
+
+# prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# env
+.env
+.env.local
+
+# tooling leftovers
+.agents/
+.claude/
+.windsurf/
+agent-tools/
+skills-lock.json
+AGENTS.md
+CLAUDE.md
+
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env
+.env.local
+prisma/dev.db
+prisma/dev.db-journal
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+/src/generated/prisma

@@ -1,0 +1,105 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String   @id @default(cuid())
+  email          String   @unique
+  passwordHash   String
+  name           String
+  phone          String?
+  role           String   @default("CUSTOMER") // CUSTOMER | ADMIN
+  marketingOptIn Boolean  @default(false)
+  addressLine1   String?
+  addressLine2   String?
+  city           String?
+  province       String?
+  postalCode     String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  orders         Order[]
+}
+
+model Product {
+  id          String    @id @default(cuid())
+  name        String
+  slug        String    @unique
+  category    String
+  description String
+  specsJson   String    @default("{}")
+  imageUrl    String?
+  active      Boolean   @default(true)
+  featured    Boolean   @default(false)
+  sortOrder   Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  variants    Variant[]
+}
+
+model Variant {
+  id         String      @id @default(cuid())
+  productId  String
+  sku        String      @unique
+  label      String
+  priceCents Int
+  stock      Int         @default(0)
+  product    Product     @relation(fields: [productId], references: [id], onDelete: Cascade)
+  orderItems OrderItem[]
+}
+
+model Order {
+  id           String      @id @default(cuid())
+  number         String      @unique
+  userId         String?
+  email          String
+  name           String
+  phone          String
+  addressLine1   String
+  addressLine2   String?
+  city           String
+  province       String
+  postalCode     String
+  status         String      @default("pending_payment")
+  subtotalCents  Int
+  shippingCents  Int
+  totalCents     Int
+  notes          String?
+  trackingNumber String?
+  ruoAccepted    Boolean     @default(true)
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+  user           User?       @relation(fields: [userId], references: [id])
+  items          OrderItem[]
+}
+
+model OrderItem {
+  id          String  @id @default(cuid())
+  orderId     String
+  variantId   String
+  name        String
+  sku         String
+  label       String
+  qty         Int
+  unitCents   Int
+  order       Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  variant     Variant @relation(fields: [variantId], references: [id])
+}
+
+model Post {
+  id            String    @id @default(cuid())
+  title         String
+  slug          String    @unique
+  excerpt       String
+  bodyMarkdown  String
+  coverImageUrl String?
+  category      String    @default("Research")
+  published     Boolean   @default(true)
+  publishedAt   DateTime  @default(now())
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}

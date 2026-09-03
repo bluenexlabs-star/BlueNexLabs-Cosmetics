@@ -1,0 +1,11 @@
+{
+  "name": "BlueNex Labs",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "dev",
+      "command": "npm run dev"
+    }
+  ],
+  "ports": [{ "name": "web", "port": 43123 }]
+}

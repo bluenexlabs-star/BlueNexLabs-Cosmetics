@@ -1,0 +1,112 @@
+BlueNex Labs — put this shop on GitHub + Vercel
+================================================
+
+Vercel hosts the website.
+Supabase stores products, orders, and accounts (Postgres).
+You do NOT need Vercel Postgres. You already have Supabase.
+
+Use a NEW Supabase project named something like "bluenex-labs".
+Do not point this shop at a database that already belongs to another app.
+
+
+1. Open the folder in Cursor (on this PC, not Cloud Agent)
+----------------------------------------------------------
+File → Open Folder → the unzipped bluenex folder.
+Close any window that says "Starting remote server".
+
+
+2. Publish to GitHub
+--------------------
+Left sidebar: the branch / Source Control icon.
+
+If it says "Initialize Repository", click that, then:
+  Type a message: BlueNex Labs shop
+  Click Commit (you may be asked to sign in to GitHub)
+
+Then click "Publish Branch" or "Publish to GitHub".
+  Choose private
+  If it offers to use mikeworkforce/bluenex-labs, use that
+  If it creates a new repo, that is also fine — write down the name
+
+When it finishes, open https://github.com/mikeworkforce
+You should see the files there (package.json, src, prisma, …).
+
+
+3. Create a Supabase project for this shop
+------------------------------------------
+Go to https://supabase.com/dashboard
+New project → name it bluenex-labs → wait until it is ready.
+
+Open the project → click Connect (or Project Settings → Database).
+Choose the Prisma tab if you see one.
+
+Copy TWO URLs:
+  DATABASE_URL  = Transaction pooler (port 6543). Add ?pgbouncer=true if it is not already there.
+  DIRECT_URL    = Direct or Session pooler (port 5432). No pgbouncer flag.
+
+Replace the password placeholder with the database password you set
+when you created the project.
+
+
+4. Deploy on Vercel
+-------------------
+Go to https://vercel.com
+Sign in with GitHub (mikeworkforce).
+
+Add New → Project → Import bluenex-labs (or whatever you published).
+
+Before you click Deploy, open Environment Variables and add:
+
+  DATABASE_URL                 (the Supabase pooler URL)
+  DIRECT_URL                   (the Supabase direct URL)
+  SESSION_SECRET               (make up a long random sentence, 32+ characters)
+  ADMIN_EMAIL                  admin@bluenexlabs.com
+  ADMIN_PASSWORD               (pick a real password, not the demo one)
+  REQUIRE_CUSTOMER_ACCOUNT     false
+  INTERAC_EMAIL                BlueNexLabs@gmail.com
+  NEXT_PUBLIC_SITE_URL         https://your-project.vercel.app
+                               (you can edit this after the first deploy
+                                when Vercel shows the real URL)
+
+Click Deploy.
+
+The first build creates the tables and loads products/articles.
+When it is green, click Visit. That public URL is the shop.
+
+
+If GitHub still looks empty
+---------------------------
+In Cursor, open Terminal (not Ubuntu) and paste these, one block at a time,
+from inside the project folder:
+
+  git init
+  git add .
+  git commit -m "BlueNex Labs shop"
+  git branch -M main
+  git remote add origin https://github.com/mikeworkforce/bluenex-labs.git
+  git push -u origin main
+
+Sign in with GitHub in the browser window if it asks.
+If the Vercel build fails on the database
+-----------------------------------------
+The shop talks to Supabase with TWO URLs. Both must be set on Vercel:
+
+  DATABASE_URL  = Transaction pooler, port 6543, with ?pgbouncer=true
+  DIRECT_URL    = Direct or session pooler, port 5432, no pgbouncer flag
+
+Use the Prisma tab in Supabase → Connect. Do not use the "URI" from
+the old db.xxxxx.supabase.co host on Vercel — that one is IPv6-only
+and often times out. The pooler host (*.pooler.supabase.com) works.
+
+If the database password has @, #, /, or %, URL-encode it.
+Example: p@ss becomes p%40ss
+
+If you connected the Vercel Supabase integration instead of pasting
+URLs, these names are mapped automatically:
+  POSTGRES_URL / POSTGRES_PRISMA_URL  → DATABASE_URL
+  POSTGRES_URL_NON_POOLING            → DIRECT_URL
+
+After the first green deploy, the catalog and research articles are
+loaded by the build seed. If the shop is empty, run the seed again
+from Vercel’s deploy logs or set FORCE_SEED=true for one rebuild.
+

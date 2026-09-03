@@ -1,0 +1,882 @@
+{
+  "generatedAt": "2026-08-24T05:23:11.703Z",
+  "results": [
+    {
+      "slug": "melanotan-i",
+      "name": "Melanotan I",
+      "nameLines": [
+        "MELANOTAN I"
+      ],
+      "dose": "",
+      "fontSize": 32,
+      "lines": [
+        "MELANOTAN I"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\melanotan-i.png"
+    },
+    {
+      "slug": "adamax-10mg",
+      "name": "Adamax 10mg",
+      "nameLines": [
+        "ADAMAX"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "ADAMAX",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\adamax-10mg.png"
+    },
+    {
+      "slug": "hospira-bacteriostatic-water-30ml",
+      "name": "Hospira® Bacteriostatic Water 30mL (Pfizer)",
+      "nameLines": [
+        "HOSPIRA®",
+        "BACTERIOSTATIC WATER"
+      ],
+      "dose": "30ML",
+      "fontSize": 19,
+      "lines": [
+        "HOSPIRA®",
+        "BACTERIOSTATIC WATER",
+        "30ML"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\hospira-bacteriostatic-water-30ml.png"
+    },
+    {
+      "slug": "retatrutide-30mg",
+      "name": "Retatrutide 10mg / 20mg / 30mg",
+      "nameLines": [
+        "RETATRUTIDE"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "RETATRUTIDE",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\retatrutide-30mg.png"
+    },
+    {
+      "slug": "tirzepatide-10mg",
+      "name": "Tirzepatide 10mg",
+      "nameLines": [
+        "TIRZEPATIDE"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "TIRZEPATIDE",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\tirzepatide-10mg.png"
+    },
+    {
+      "slug": "cagrilintide-5mg",
+      "name": "Cagrilintide 5mg Peptide",
+      "nameLines": [
+        "CAGRILINTIDE"
+      ],
+      "dose": "5MG",
+      "fontSize": 32,
+      "lines": [
+        "CAGRILINTIDE",
+        "5MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\cagrilintide-5mg.png"
+    },
+    {
+      "slug": "semaglutide-20mg",
+      "name": "Semaglutide 10mg / 20mg",
+      "nameLines": [
+        "SEMAGLUTIDE"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "SEMAGLUTIDE",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\semaglutide-20mg.png"
+    },
+    {
+      "slug": "klow-80mg",
+      "name": "KLOW 80mg",
+      "nameLines": [
+        "KLOW"
+      ],
+      "dose": "80MG",
+      "fontSize": 32,
+      "lines": [
+        "KLOW",
+        "80MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\klow-80mg.png"
+    },
+    {
+      "slug": "glow70",
+      "name": "GLOW 70mg",
+      "nameLines": [
+        "GLOW"
+      ],
+      "dose": "70MG",
+      "fontSize": 32,
+      "lines": [
+        "GLOW",
+        "70MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\glow70.png"
+    },
+    {
+      "slug": "mots-c-10mg-canada",
+      "name": "MOTS-C 10mg",
+      "nameLines": [
+        "MOTS-C"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "MOTS-C",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\mots-c-10mg-canada.png"
+    },
+    {
+      "slug": "nad-500mg-canada",
+      "name": "NAD+ 500mg / 1000mg",
+      "nameLines": [
+        "NAD+"
+      ],
+      "dose": "500MG",
+      "fontSize": 32,
+      "lines": [
+        "NAD+",
+        "500MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\nad-500mg-canada.png"
+    },
+    {
+      "slug": "ghk-cu-50mg",
+      "name": "GHK-Cu 50mg",
+      "nameLines": [
+        "GHK-CU"
+      ],
+      "dose": "50MG",
+      "fontSize": 32,
+      "lines": [
+        "GHK-CU",
+        "50MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\ghk-cu-50mg.png"
+    },
+    {
+      "slug": "cjc-1259-no-dac-ipamorelin-5mg-5mg",
+      "name": "CJC-1259 (no DAC) / Ipamorelin  5mg / 5mg",
+      "nameLines": [
+        "CJC-1259 (NO DAC)",
+        "IPAMORELIN"
+      ],
+      "dose": "(5MG/5MG)",
+      "fontSize": 20,
+      "lines": [
+        "CJC-1259 (NO DAC)",
+        "IPAMORELIN",
+        "(5MG/5MG)"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\cjc-1259-no-dac-ipamorelin-5mg-5mg.png"
+    },
+    {
+      "slug": "bpc-157-tb-500-5mg5mg",
+      "name": "BPC-157 + TB-500 (10mg/10mg)",
+      "nameLines": [
+        "BPC-157 + TB-500"
+      ],
+      "dose": "(5MG/5MG)",
+      "fontSize": 24,
+      "lines": [
+        "BPC-157 + TB-500",
+        "(5MG/5MG)"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\bpc-157-tb-500-5mg5mg.png"
+    },
+    {
+      "slug": "bpc-157-tb-500-10mg10mg",
+      "name": "BPC-157 + TB-500 (5mg/5mg)",
+      "nameLines": [
+        "BPC-157 + TB-500"
+      ],
+      "dose": "(10MG/10MG)",
+      "fontSize": 24,
+      "lines": [
+        "BPC-157 + TB-500",
+        "(10MG/10MG)"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\bpc-157-tb-500-10mg10mg.png"
+    },
+    {
+      "slug": "bcp-157-10mg",
+      "name": "BPC-157 10mg",
+      "nameLines": [
+        "BPC-157"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "BPC-157",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\bcp-157-10mg.png"
+    },
+    {
+      "slug": "ss-31-50mg",
+      "name": "SS-31 50mg",
+      "nameLines": [
+        "SS-31"
+      ],
+      "dose": "50MG",
+      "fontSize": 32,
+      "lines": [
+        "SS-31",
+        "50MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\ss-31-50mg.png"
+    },
+    {
+      "slug": "tesamorelin-10mg-canada",
+      "name": "Tesamorelin 10mg",
+      "nameLines": [
+        "TESAMORELIN"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "TESAMORELIN",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\tesamorelin-10mg-canada.png"
+    },
+    {
+      "slug": "sermorelin-10mg",
+      "name": "Sermorelin 10mg",
+      "nameLines": [
+        "SERMORELIN"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "SERMORELIN",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\sermorelin-10mg.png"
+    },
+    {
+      "slug": "ipamorelin-10mg",
+      "name": "Ipamorelin 10mg",
+      "nameLines": [
+        "IPAMORELIN"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "IPAMORELIN",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\ipamorelin-10mg.png"
+    },
+    {
+      "slug": "semax-10mg",
+      "name": "SEMAX 10mg",
+      "nameLines": [
+        "SEMAX"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "SEMAX",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\semax-10mg.png"
+    },
+    {
+      "slug": "selank-10mg",
+      "name": "SELANK  10mg",
+      "nameLines": [
+        "SELANK"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "SELANK",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\selank-10mg.png"
+    },
+    {
+      "slug": "tb-500-10mg",
+      "name": "TB-500  10mg",
+      "nameLines": [
+        "TB-500"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "TB-500",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\tb-500-10mg.png"
+    },
+    {
+      "slug": "kpv-10mg",
+      "name": "KPV 10mg",
+      "nameLines": [
+        "KPV"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "KPV",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\kpv-10mg.png"
+    },
+    {
+      "slug": "delta-sleep-inducing-peptide-10mg",
+      "name": "DSIP (10mg)",
+      "nameLines": [
+        "DSIP"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "DSIP",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\delta-sleep-inducing-peptide-10mg.png"
+    },
+    {
+      "slug": "kisspeptin-10mg-canada-peptide",
+      "name": "Kisspeptin 10mg",
+      "nameLines": [
+        "KISSPEPTIN"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "KISSPEPTIN",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\kisspeptin-10mg-canada-peptide.png"
+    },
+    {
+      "slug": "glutathione-1500mg",
+      "name": "Glutathione 600mg - Research Grade Peptide",
+      "nameLines": [
+        "GLUTATHIONE"
+      ],
+      "dose": "600MG",
+      "fontSize": 32,
+      "lines": [
+        "GLUTATHIONE",
+        "600MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\glutathione-1500mg.png"
+    },
+    {
+      "slug": "melanotan",
+      "name": "Melanotan II 10mg",
+      "nameLines": [
+        "MELANOTAN II"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "MELANOTAN II",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\melanotan.png"
+    },
+    {
+      "slug": "b12-vitamin-canada",
+      "name": "Vitamin B-12 - 10,000 mcg - Research Peptides",
+      "nameLines": [
+        "VITAMIN B-12"
+      ],
+      "dose": "10000MCG",
+      "fontSize": 32,
+      "lines": [
+        "VITAMIN B-12",
+        "10000MCG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\b12-vitamin-canada.png"
+    },
+    {
+      "slug": "l-carnitine-600mg",
+      "name": "L-Carnitine 600mg - Research Grade Compound",
+      "nameLines": [
+        "L-CARNITINE"
+      ],
+      "dose": "600MG",
+      "fontSize": 32,
+      "lines": [
+        "L-CARNITINE",
+        "600MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\l-carnitine-600mg.png"
+    },
+    {
+      "slug": "epithalon-10mg-canada",
+      "name": "Epithalon 10mg",
+      "nameLines": [
+        "EPITHALON"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "EPITHALON",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\epithalon-10mg-canada.png"
+    },
+    {
+      "slug": "oxytocin-5mg",
+      "name": "Oxytocin 5mg - Research Grade Peptide",
+      "nameLines": [
+        "OXYTOCIN"
+      ],
+      "dose": "5MG",
+      "fontSize": 32,
+      "lines": [
+        "OXYTOCIN",
+        "5MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\oxytocin-5mg.png"
+    },
+    {
+      "slug": "pt-141",
+      "name": "PT-141 10mg",
+      "nameLines": [
+        "PT-141"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "PT-141",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\pt-141.png"
+    },
+    {
+      "slug": "ll37-5mg",
+      "name": "LL-37 5mg - Research Compound",
+      "nameLines": [
+        "LL-37"
+      ],
+      "dose": "5MG",
+      "fontSize": 32,
+      "lines": [
+        "LL-37",
+        "5MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\ll37-5mg.png"
+    },
+    {
+      "slug": "aicar-50mg",
+      "name": "AICAR 50 mg - Research Grade Compound",
+      "nameLines": [
+        "AICAR"
+      ],
+      "dose": "50MG",
+      "fontSize": 32,
+      "lines": [
+        "AICAR",
+        "50MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\aicar-50mg.png"
+    },
+    {
+      "slug": "snap-8-10mg",
+      "name": "SNAP-8 10mg - Research Grade Peptide",
+      "nameLines": [
+        "SNAP-8"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "SNAP-8",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\snap-8-10mg.png"
+    },
+    {
+      "slug": "pinealon-10mg",
+      "name": "Pinealon 10mg - Research Grade Peptide",
+      "nameLines": [
+        "PINEALON"
+      ],
+      "dose": "10MG",
+      "fontSize": 32,
+      "lines": [
+        "PINEALON",
+        "10MG"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\pinealon-10mg.png"
+    },
+    {
+      "slug": "bac-water-3ml",
+      "name": "BAC Water 3ml",
+      "nameLines": [
+        "BAC WATER"
+      ],
+      "dose": "3ML",
+      "fontSize": 32,
+      "lines": [
+        "BAC WATER",
+        "3ML"
+      ],
+      "textZone": {
+        "left": 228,
+        "right": 454,
+        "top": 658,
+        "bottom": 735,
+        "centerX": 342,
+        "taglineBottom": 650,
+        "disclaimerTop": 745
+      },
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\products\\bac-water-3ml.png"
+    }
+  ]
+}

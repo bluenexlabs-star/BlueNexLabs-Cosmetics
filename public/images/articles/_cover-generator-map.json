@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-08-24T05:23:12.810Z",
+  "results": [
+    {
+      "slug": "melanotan-research-overview",
+      "productSlug": "melanotan-i",
+      "nameLines": [
+        "MELANOTAN I"
+      ],
+      "dose": "",
+      "labelText": "MELANOTAN I",
+      "fontSize": 32,
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\articles\\melanotan-research-overview.png"
+    },
+    {
+      "slug": "why-does-tesamorelin-gel",
+      "productSlug": "tesamorelin-10mg-canada",
+      "nameLines": [
+        "TESAMORELIN"
+      ],
+      "dose": "10MG",
+      "labelText": "TESAMORELIN 10MG",
+      "fontSize": 32,
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\articles\\why-does-tesamorelin-gel.png"
+    },
+    {
+      "slug": "glp-1-peptide-research-2026",
+      "productSlug": "retatrutide-30mg",
+      "nameLines": [
+        "RETATRUTIDE"
+      ],
+      "dose": "",
+      "labelText": "RETATRUTIDE",
+      "fontSize": 32,
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\articles\\glp-1-peptide-research-2026.png"
+    },
+    {
+      "slug": "ghk-cu-peptide-in-canada-what-it-is-how-it-works-and-why-it-s-studied-for-skin-a",
+      "productSlug": "ghk-cu-50mg",
+      "nameLines": [
+        "GHK-CU"
+      ],
+      "dose": "50MG",
+      "labelText": "GHK-CU 50MG",
+      "fontSize": 32,
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\articles\\ghk-cu-peptide-in-canada-what-it-is-how-it-works-and-why-it-s-studied-for-skin-a.png"
+    },
+    {
+      "slug": "bacteriostatic-water-canada",
+      "productSlug": "bac-water-3ml",
+      "nameLines": [
+        "BAC WATER"
+      ],
+      "dose": "3ML",
+      "labelText": "BAC WATER 3ML",
+      "fontSize": 32,
+      "out": "C:\\Users\\Home\\Desktop\\AntiGravity\\BlueNexLabs\\public\\images\\articles\\bacteriostatic-water-canada.png"
+    }
+  ]
+}

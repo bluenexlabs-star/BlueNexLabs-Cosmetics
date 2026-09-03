@@ -1,0 +1,421 @@
+{
+  "updated": [
+    {
+      "slug": "melanotan-i",
+      "cube": "204,292 146x124",
+      "core": "206,342 54x48",
+      "icon": "69x93 @243,308",
+      "wordmark": "212w @425",
+      "paper": "239,240,239",
+      "labelW": 230,
+      "localUrl": "/images/products/melanotan-i.png"
+    },
+    {
+      "slug": "adamax-10mg",
+      "cube": "205,292 145x124",
+      "core": "206,342 54x48",
+      "icon": "69x93 @244,308",
+      "wordmark": "212w @425",
+      "paper": "239,240,239",
+      "labelW": 230,
+      "localUrl": "/images/products/adamax-10mg.png"
+    },
+    {
+      "slug": "retatrutide-30mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 228,
+      "localUrl": "/images/products/retatrutide-30mg.png"
+    },
+    {
+      "slug": "tirzepatide-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/tirzepatide-10mg.png"
+    },
+    {
+      "slug": "cagrilintide-5mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 290,
+      "localUrl": "/images/products/cagrilintide-5mg.png"
+    },
+    {
+      "slug": "semaglutide-20mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 227,
+      "localUrl": "/images/products/semaglutide-20mg.png"
+    },
+    {
+      "slug": "klow-80mg",
+      "cube": "192,416 251x152",
+      "core": "282,466 71x63",
+      "icon": "84x114 @276,435",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/klow-80mg.png"
+    },
+    {
+      "slug": "glow70",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/glow70.png"
+    },
+    {
+      "slug": "mots-c-10mg-canada",
+      "cube": "384,734 299x221",
+      "core": "474,784 119x104",
+      "icon": "124x167 @472,762",
+      "wordmark": "471w @964",
+      "paper": "239,239,239",
+      "labelW": 533,
+      "localUrl": "/images/products/mots-c-10mg-canada.png"
+    },
+    {
+      "slug": "nad-500mg-canada",
+      "cube": "192,416 251x152",
+      "core": "282,466 71x63",
+      "icon": "84x114 @276,435",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 316,
+      "localUrl": "/images/products/nad-500mg-canada.png"
+    },
+    {
+      "slug": "ghk-cu-50mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/ghk-cu-50mg.png"
+    },
+    {
+      "slug": "cjc-1259-no-dac-ipamorelin-5mg-5mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 179,
+      "localUrl": "/images/products/cjc-1259-no-dac-ipamorelin-5mg-5mg.png"
+    },
+    {
+      "slug": "bpc-157-tb-500-5mg5mg",
+      "cube": "192,416 251x152",
+      "core": "282,466 71x63",
+      "icon": "84x114 @276,435",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/bpc-157-tb-500-5mg5mg.png"
+    },
+    {
+      "slug": "bpc-157-tb-500-10mg10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 290,
+      "localUrl": "/images/products/bpc-157-tb-500-10mg10mg.png"
+    },
+    {
+      "slug": "bcp-157-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/bcp-157-10mg.png"
+    },
+    {
+      "slug": "ss-31-50mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/ss-31-50mg.png"
+    },
+    {
+      "slug": "tesamorelin-10mg-canada",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/tesamorelin-10mg-canada.png"
+    },
+    {
+      "slug": "sermorelin-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/sermorelin-10mg.png"
+    },
+    {
+      "slug": "ipamorelin-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/ipamorelin-10mg.png"
+    },
+    {
+      "slug": "semax-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 305,
+      "localUrl": "/images/products/semax-10mg.png"
+    },
+    {
+      "slug": "selank-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 240,
+      "localUrl": "/images/products/selank-10mg.png"
+    },
+    {
+      "slug": "tb-500-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 287,
+      "localUrl": "/images/products/tb-500-10mg.png"
+    },
+    {
+      "slug": "kpv-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 196,
+      "localUrl": "/images/products/kpv-10mg.png"
+    },
+    {
+      "slug": "delta-sleep-inducing-peptide-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/delta-sleep-inducing-peptide-10mg.png"
+    },
+    {
+      "slug": "kisspeptin-10mg-canada-peptide",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 231,
+      "localUrl": "/images/products/kisspeptin-10mg-canada-peptide.png"
+    },
+    {
+      "slug": "glutathione-1500mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/glutathione-1500mg.png"
+    },
+    {
+      "slug": "melanotan",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 241,
+      "localUrl": "/images/products/melanotan.png"
+    },
+    {
+      "slug": "b12-vitamin-canada",
+      "cube": "456,761 197x194",
+      "core": "456,784 107x93",
+      "icon": "109x147 @501,785",
+      "wordmark": "488w @953",
+      "paper": "239,239,240",
+      "labelW": 508,
+      "localUrl": "/images/products/b12-vitamin-canada.png"
+    },
+    {
+      "slug": "l-carnitine-600mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/l-carnitine-600mg.png"
+    },
+    {
+      "slug": "epithalon-10mg-canada",
+      "cube": "192,416 251x152",
+      "core": "282,466 71x63",
+      "icon": "84x114 @276,435",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 316,
+      "localUrl": "/images/products/epithalon-10mg-canada.png"
+    },
+    {
+      "slug": "oxytocin-5mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/oxytocin-5mg.png"
+    },
+    {
+      "slug": "pt-141",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/pt-141.png"
+    },
+    {
+      "slug": "ll37-5mg",
+      "cube": "192,416 251x152",
+      "core": "282,466 71x63",
+      "icon": "84x114 @276,435",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/ll37-5mg.png"
+    },
+    {
+      "slug": "aicar-50mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/aicar-50mg.png"
+    },
+    {
+      "slug": "snap-8-10mg",
+      "cube": "192,416 251x152",
+      "core": "282,466 71x63",
+      "icon": "84x114 @276,435",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 283,
+      "localUrl": "/images/products/snap-8-10mg.png"
+    },
+    {
+      "slug": "pinealon-10mg",
+      "cube": "192,417 251x151",
+      "core": "282,467 71x62",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239",
+      "labelW": 235,
+      "localUrl": "/images/products/pinealon-10mg.png"
+    },
+    {
+      "slug": "bac-water-3ml",
+      "cube": "242,499 263x169",
+      "core": "332,549 83x74",
+      "icon": "95x128 @327,520",
+      "wordmark": "330w @676",
+      "paper": "239,240,240",
+      "labelW": 370,
+      "localUrl": "/images/products/bac-water-3ml.png"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "hospira-bacteriostatic-water-30ml",
+      "reason": "no cube — copied as-is from _originals",
+      "localUrl": "/images/products/hospira-bacteriostatic-water-30ml.png"
+    }
+  ],
+  "urlMap": {
+    "melanotan-i": "/images/products/melanotan-i.png",
+    "adamax-10mg": "/images/products/adamax-10mg.png",
+    "hospira-bacteriostatic-water-30ml": "/images/products/hospira-bacteriostatic-water-30ml.png",
+    "retatrutide-30mg": "/images/products/retatrutide-30mg.png",
+    "tirzepatide-10mg": "/images/products/tirzepatide-10mg.png",
+    "cagrilintide-5mg": "/images/products/cagrilintide-5mg.png",
+    "semaglutide-20mg": "/images/products/semaglutide-20mg.png",
+    "klow-80mg": "/images/products/klow-80mg.png",
+    "glow70": "/images/products/glow70.png",
+    "mots-c-10mg-canada": "/images/products/mots-c-10mg-canada.png",
+    "nad-500mg-canada": "/images/products/nad-500mg-canada.png",
+    "ghk-cu-50mg": "/images/products/ghk-cu-50mg.png",
+    "cjc-1259-no-dac-ipamorelin-5mg-5mg": "/images/products/cjc-1259-no-dac-ipamorelin-5mg-5mg.png",
+    "bpc-157-tb-500-5mg5mg": "/images/products/bpc-157-tb-500-5mg5mg.png",
+    "bpc-157-tb-500-10mg10mg": "/images/products/bpc-157-tb-500-10mg10mg.png",
+    "bcp-157-10mg": "/images/products/bcp-157-10mg.png",
+    "ss-31-50mg": "/images/products/ss-31-50mg.png",
+    "tesamorelin-10mg-canada": "/images/products/tesamorelin-10mg-canada.png",
+    "sermorelin-10mg": "/images/products/sermorelin-10mg.png",
+    "ipamorelin-10mg": "/images/products/ipamorelin-10mg.png",
+    "semax-10mg": "/images/products/semax-10mg.png",
+    "selank-10mg": "/images/products/selank-10mg.png",
+    "tb-500-10mg": "/images/products/tb-500-10mg.png",
+    "kpv-10mg": "/images/products/kpv-10mg.png",
+    "delta-sleep-inducing-peptide-10mg": "/images/products/delta-sleep-inducing-peptide-10mg.png",
+    "kisspeptin-10mg-canada-peptide": "/images/products/kisspeptin-10mg-canada-peptide.png",
+    "glutathione-1500mg": "/images/products/glutathione-1500mg.png",
+    "melanotan": "/images/products/melanotan.png",
+    "b12-vitamin-canada": "/images/products/b12-vitamin-canada.png",
+    "l-carnitine-600mg": "/images/products/l-carnitine-600mg.png",
+    "epithalon-10mg-canada": "/images/products/epithalon-10mg-canada.png",
+    "oxytocin-5mg": "/images/products/oxytocin-5mg.png",
+    "pt-141": "/images/products/pt-141.png",
+    "ll37-5mg": "/images/products/ll37-5mg.png",
+    "aicar-50mg": "/images/products/aicar-50mg.png",
+    "snap-8-10mg": "/images/products/snap-8-10mg.png",
+    "pinealon-10mg": "/images/products/pinealon-10mg.png",
+    "bac-water-3ml": "/images/products/bac-water-3ml.png"
+  }
+}

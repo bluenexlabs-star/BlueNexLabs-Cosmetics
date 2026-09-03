@@ -1,0 +1,255 @@
+{
+  "kept": [
+    {
+      "slug": "melanotan-research-overview",
+      "coverImageUrl": "/images/articles/melanotan-research-overview.png"
+    },
+    {
+      "slug": "bacteriostatic-water-canada",
+      "coverImageUrl": "/images/articles/bacteriostatic-water-canada.png"
+    },
+    {
+      "slug": "why-does-tesamorelin-gel",
+      "coverImageUrl": "/images/articles/why-does-tesamorelin-gel.png"
+    },
+    {
+      "slug": "glp-1-peptide-research-2026",
+      "coverImageUrl": "/images/articles/glp-1-peptide-research-2026.png"
+    },
+    {
+      "slug": "ghk-cu-peptide-in-canada-what-it-is-how-it-works-and-why-it-s-studied-for-skin-a",
+      "coverImageUrl": "/images/articles/ghk-cu-peptide-in-canada-what-it-is-how-it-works-and-why-it-s-studied-for-skin-a.png"
+    }
+  ],
+  "updated": [
+    {
+      "slug": "melanotan-research-overview",
+      "file": "/images/articles/melanotan-research-overview.png",
+      "original": "public/images/articles/_originals/melanotan-research-overview__Melanotan+I.jpg",
+      "filename": "",
+      "cube": "204,292 146x124",
+      "icon": "69x93 @243,308",
+      "wordmark": "212w @425",
+      "paper": "239,240,239"
+    },
+    {
+      "slug": "bacteriostatic-water-canada",
+      "file": "/images/articles/bacteriostatic-water-canada.png",
+      "original": "public/images/articles/_originals/bacteriostatic-water-canada__BAC+Water_3ml_Canada.jpg",
+      "filename": "",
+      "cube": "242,499 263x169",
+      "icon": "95x128 @327,520",
+      "wordmark": "330w @676",
+      "paper": "239,240,240"
+    },
+    {
+      "slug": "why-does-tesamorelin-gel",
+      "file": "/images/articles/why-does-tesamorelin-gel.png",
+      "original": "public/images/articles/_originals/why-does-tesamorelin-gel__Tesamorelin_10mg_COA+Certified_Canada+-PEPTIDES-.png",
+      "filename": "",
+      "cube": "192,417 251x151",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239"
+    },
+    {
+      "slug": "glp-1-peptide-research-2026",
+      "file": "/images/articles/glp-1-peptide-research-2026.png",
+      "original": "public/images/articles/_originals/glp-1-peptide-research-2026__Retatrutide-10mg-COA+Certified-Canada+-PEPTIDES-.png",
+      "filename": "",
+      "cube": "192,417 251x151",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239"
+    },
+    {
+      "slug": "ghk-cu-peptide-in-canada-what-it-is-how-it-works-and-why-it-s-studied-for-skin-a",
+      "file": "/images/articles/ghk-cu-peptide-in-canada-what-it-is-how-it-works-and-why-it-s-studied-for-skin-a.png",
+      "original": "public/images/articles/_originals/ghk-cu-peptide-in-canada-what-it-is-how-it-works-and-why-it-s-studied-for-skin-a__GHK-Cu-50mg-COA+Certified-Canada+-PEPTIDES-.png",
+      "filename": "",
+      "cube": "192,417 251x151",
+      "icon": "84x114 @276,436",
+      "wordmark": "540w @574",
+      "paper": "239,239,239"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "how-to-read-peptide-certificate-of-analysi",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "how-peptides-are-made-manufacturing-quality-control-lyophilization",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "why-do-peptide-names-end-in-tide",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "are-peptides-legal-in-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "when-were-peptides-discovered",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "why-hospira-bacteriostatic-water-is-the-golden-standard-used-in-peptide-research",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "muscle-growth-peptides-research-guide",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "how-do-peptides-work",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "peptide-storage-handling-guide-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "start-canadian-peptide-testing-company",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "peptide-delivery-bioavailability-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "endotoxins-testing-coa",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "cjc-1295-ipamorelin-research-guide",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "health-canada-peptides-regulations",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "peptide-quality-purity-contamination-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "peptide-degradation-guide-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "canada-skin-longevity-peptides-beauty-trends",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "research-peptide-guides",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "ghk-cu-copper-peptide-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "bcp-157-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "blog-where-to-buy-coa-certified-peptides-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "canada-vancouver-toronto",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "bacteriostatic-water",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "retatrutide-fda-approval",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "affordable-sleep-peptides-canadian",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "grey-market-canadian-peptides",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "are-peptides-legal-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "cje4mafbhc8j4paewe536hsmta8c9k",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "kag4skcx6nlawwjjdcsrzhg29jjplb",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "peptide-laws-in-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "structural-peptides",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "jlll7rxnlwz575ws2d9e2c2lz9krwd",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "blog-signaling-peptides-skin-health-regeneration",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "mitochondrial-peptides-the-next-frontier",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "breaking-news-retatrutide-clears-first-late-stage-diabetes-trial",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "peptide-handling-common-errors",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "light-temperature-sensitivity-peptides",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "blog-peptide-storage-guidelines-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "2026-3-13-batch-testing-and-verification",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "2026-3-13-how-peptide-purity-is-measured",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "certificate-of-analysis-coa-guide-canada",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "2026-3-9-peptide-structure-and-stability",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "what-are-research-peptides-007",
+      "reason": "not a cube-logo vial cover"
+    },
+    {
+      "slug": "what-are-research-peptides",
+      "reason": "not a cube-logo vial cover"
+    }
+  ],
+  "failed": []
+}
