@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { articleImageSrc } from "@/lib/article-image";
+import { isLegacyPostSlug } from "@/lib/legacy-catalog";
 import { prisma } from "@/lib/prisma";
 import { bodyToHtml } from "@/lib/markdown";
 
@@ -12,6 +13,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (isLegacyPostSlug(slug)) return { title: "Article" };
   const post = await prisma.post.findUnique({ where: { slug } });
   return { title: post?.title ?? "Article" };
 }
@@ -22,6 +24,7 @@ export default async function ArticlePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (isLegacyPostSlug(slug)) notFound();
   const post = await prisma.post.findUnique({ where: { slug } });
   if (!post || !post.published) notFound();
 
@@ -48,8 +51,9 @@ export default async function ArticlePage({
         dangerouslySetInnerHTML={{ __html: bodyToHtml(post.bodyMarkdown) }}
       />
       <p className="mt-10 rounded-lg bg-amber-50 p-4 text-sm text-amber-950">
-        Research-use only. BlueNex Labs does not provide medical, dosing, or
-        treatment advice. Confirm your institution’s policies before purchase.
+        Educational only. BlueNex Labs does not provide medical or treatment
+        advice. Cosmetic and face additives are for topical use — follow each
+        product label.
       </p>
     </article>
   );

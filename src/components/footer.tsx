@@ -9,21 +9,21 @@ export function Footer() {
         <div>
           <BrandLockup onDark markClassName="h-8 w-8" />
           <p className="mt-3 text-sm leading-6">
-            COA-certified research peptides fulfilled from {SITE.city}. For
-            laboratory research use only — not for human or veterinary use.
+            Cosmetic and face additives fulfilled from {SITE.city}. Sold as
+            cosmetics for personal use — follow each product label.
           </p>
         </div>
         <div>
           <p className="text-white text-sm font-semibold">Shop</p>
           <div className="mt-3 flex flex-col gap-2 text-sm">
             <Link href="/shop" className="hover:text-white">
-              All peptides
+              All products
             </Link>
             <Link href="/cart" className="hover:text-white">
               Cart
             </Link>
             <Link href="/certificates" className="hover:text-white">
-              Certificates of analysis
+              Quality & documentation
             </Link>
           </div>
         </div>
@@ -34,7 +34,7 @@ export function Footer() {
               About
             </Link>
             <Link href="/research" className="hover:text-white">
-              Research hub
+              Journal
             </Link>
             <Link href="/faq" className="hover:text-white">
               FAQ
@@ -61,8 +61,8 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-slate-500">
-        © {new Date().getFullYear()} {SITE.legal}. All products are sold for
-        research purposes only.{" "}
+        © {new Date().getFullYear()} {SITE.legal}. Cosmetic and face additives
+        for personal use.{" "}
         <Link href="/terms" className="underline">
           Terms
         </Link>

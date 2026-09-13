@@ -48,27 +48,26 @@ export default function TermsPage() {
           </li>
         </ul>
 
-        <h2>2) Research Use Only (No Human or Veterinary Use)</h2>
+        <h2>2) Cosmetic Products (Not Medicines)</h2>
         <p>
-          All products sold by BlueNexLabs are intended for laboratory and
-          research use only, unless explicitly stated otherwise on the product
-          label or listing.
+          All products sold by BlueNexLabs are intended as cosmetics and face
+          additives for topical use, unless explicitly stated otherwise on the
+          product label or listing.
         </p>
         <p>You acknowledge and agree that:</p>
         <ul>
           <li>
-            Our products are not intended for human consumption, medical use,
-            diagnostic use, therapeutic use, or veterinary use.
+            Our products are cosmetics and face additives for personal use, not
+            medicines, and are not intended for ingestion.
           </li>
           <li>
-            Our products are not medicines, are not health products, and are
-            not intended to treat, cure, mitigate, or prevent any disease or
-            condition.
+            Our products are not intended to diagnose, treat, cure, mitigate,
+            or prevent any disease or condition.
           </li>
           <li>
-            You are solely responsible for ensuring that your use of our
-            products complies with all applicable laws, regulations, and
-            institutional policies.
+            You are solely responsible for following the product label and for
+            ensuring that your use complies with all applicable laws and
+            regulations.
           </li>
         </ul>
         <p>
@@ -79,10 +78,9 @@ export default function TermsPage() {
         <h2>3) No Professional Advice</h2>
         <p>
           Information provided on the Site (including product descriptions,
-          blog posts, FAQs, certificates/COAs, or other content) is not
+          journal posts, FAQs, quality documents, or other content) is not
           intended as scientific, medical, legal, or regulatory advice. You
-          should consult qualified professionals and your institution’s
-          compliance office where appropriate.
+          should consult a qualified professional where appropriate.
         </p>
 
         <h2>4) Orders, Acceptance &amp; Cancellations</h2>
@@ -152,8 +150,8 @@ export default function TermsPage() {
 
         <h2>8) Returns, Refunds &amp; Exchanges</h2>
         <p>
-          Because many research products are sensitive, returns may be
-          restricted.
+          Because many cosmetic products are opened or hygiene-sensitive,
+          returns may be restricted.
         </p>
         <p>Unless otherwise required by law:</p>
         <ul>
@@ -173,13 +171,13 @@ export default function TermsPage() {
         <p>You are responsible for:</p>
         <ul>
           <li>
-            Proper handling, storage, and use of products consistent with
-            standard laboratory practices and any instructions provided.
+            Proper handling, storage, and use of products consistent with the
+            product label and any instructions provided.
           </li>
           <li>
-            Ensuring compatibility with your intended research application.
+            Checking ingredients for personal sensitivities before use.
           </li>
-          <li>Maintaining appropriate safety protocols and compliance.</li>
+          <li>Keeping products away from children as directed on the label.</li>
         </ul>
         <p>
           BlueNexLabs is not responsible for product degradation or outcomes
@@ -188,7 +186,7 @@ export default function TermsPage() {
 
         <h2>10) Quality, Documentation &amp; Disclaimers</h2>
         <p>
-          We may provide batch-related documentation (e.g., COAs) where
+          We may provide batch-related or ingredient documentation where
           available. Such documentation is provided for informational purposes
           and does not constitute a warranty of fitness for a particular
           purpose.
@@ -259,8 +257,8 @@ export default function TermsPage() {
           <li>Interfere with Site operations,</li>
           <li>Submit false information,</li>
           <li>
-            Use products in any way inconsistent with research-use-only
-            restrictions.
+            Use products in any way inconsistent with their intended cosmetic
+            use, the product label, or applicable law.
           </li>
         </ul>
 

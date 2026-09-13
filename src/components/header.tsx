@@ -11,8 +11,8 @@ import type { SessionUser } from "@/lib/session";
 
 const links = [
   { href: "/shop", label: "Shop" },
-  { href: "/research", label: "Research" },
-  { href: "/certificates", label: "Certificates" },
+  { href: "/research", label: "Journal" },
+  { href: "/certificates", label: "Quality" },
   { href: "/about", label: "About" },
   { href: "/faq", label: "FAQ" },
 ];

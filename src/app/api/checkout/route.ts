@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { getSession } from "@/lib/session";
+import { isLegacyProductSlug } from "@/lib/legacy-catalog";
 import { shippingCents } from "@/lib/utils";
 
 const schema = z.object({
@@ -48,7 +49,11 @@ export async function POST(req: Request) {
   }[] = [];
   for (const line of data.lines) {
     const variant = byId.get(line.variantId);
-    if (!variant || !variant.product.active) {
+    if (
+      !variant ||
+      !variant.product.active ||
+      isLegacyProductSlug(variant.product.slug)
+    ) {
       return NextResponse.json({ error: "A product in your cart is no longer available." }, { status: 400 });
     }
     if (variant.stock < line.qty) {

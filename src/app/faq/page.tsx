@@ -8,45 +8,46 @@ export const metadata: Metadata = { title: "FAQ" };
 const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "How do I order?",
-    a: `Add vials to the cart, check out with a Canadian shipping address, then pay the emailed Interac invoice to ${SITE.interacEmail}. Guest checkout is available unless we later require accounts.`,
+    a: `Add products to the cart, check out with a Canadian shipping address, then pay the emailed Interac invoice to ${SITE.interacEmail}. Guest checkout is available unless we later require accounts.`,
   },
   {
     q: "Which payment methods do you accept?",
-    a: `Interac e-Transfer only. This keeps card processing fees out of the vial price. Send the exact total to ${SITE.interacEmail} with your order number in the message field.`,
+    a: `Interac e-Transfer only. This keeps card processing fees out of the product price. Send the exact total to ${SITE.interacEmail} with your order number in the message field.`,
   },
   {
     q: "Do you ship outside Canada?",
-    a: "No. Domestic shipping avoids customs seizures and brokerage. We will not redirect a parcel abroad.",
+    a: "No. Domestic shipping avoids customs delays and brokerage. We will not redirect a parcel abroad.",
   },
   {
-    q: "Are products for human use?",
+    q: "Are these cosmetic products?",
     a: (
       <>
-        No. Everything is sold as a research chemical for in-vitro / laboratory
-        work. We provide no medical advice, dosing, or treatment claims. See
+        Yes. Items are sold as cosmetics and face additives for topical use.
+        They are not medicines, and we do not make treatment claims. See
         the{" "}
         <Link className="underline" href="/terms">
           Terms and Conditions
         </Link>{" "}
-        for research-use-only terms, returns, and governing law.
+        for intended use, returns, and governing law.
       </>
     ),
   },
   {
-    q: "How are COAs handled?",
+    q: "How is quality documented?",
     a: (
       <>
-        Need a COA? See the{" "}
+        We publish quality standards and batch documentation as the catalog
+        launches. See the{" "}
         <Link className="underline" href="/certificates">
-          certificates library
+          quality page
         </Link>
         .
       </>
     ),
   },
   {
-    q: "What if a vial tests below 99%?",
-    a: "If an independent lab shows identity failure or purity under 99% on an unopened vial from that batch, we replace it and refund the original payment.",
+    q: "What if an item arrives damaged?",
+    a: "If an item arrives damaged, incorrect, or materially defective, email us within 48 hours of delivery with photos and your order number. We will replace or refund after review.",
   },
 ];
 

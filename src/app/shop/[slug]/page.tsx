@@ -4,6 +4,7 @@ import { AddToCart } from "@/components/add-to-cart";
 import { ProductDescription } from "@/components/product-description";
 import { Badge } from "@/components/ui/badge";
 import { CATEGORIES } from "@/lib/constants";
+import { isLegacyProductSlug } from "@/lib/legacy-catalog";
 import { prisma } from "@/lib/prisma";
 import { productImageSrc } from "@/lib/product-image";
 import type { Metadata } from "next";
@@ -16,6 +17,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (isLegacyProductSlug(slug)) return { title: "Product" };
   const product = await prisma.product.findUnique({ where: { slug } });
   return { title: product?.name ?? "Product" };
 }
@@ -26,6 +28,7 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (isLegacyProductSlug(slug)) notFound();
   const product = await prisma.product.findUnique({
     where: { slug },
     include: { variants: { orderBy: { priceCents: "asc" } } },
@@ -55,7 +58,7 @@ export default async function ProductPage({
         {cat && <Badge tone="cyan">{cat.name}</Badge>}
         <h1 className="display mt-3 text-3xl text-navy-900">{product.name}</h1>
         <p className="mt-3 text-sm font-medium text-amber-800">
-          Research use only. Not for human or veterinary use.
+          Cosmetic / face additive for topical use. Follow the product label.
         </p>
         <ProductDescription markdown={product.description} />
         <div className="mt-6">
@@ -78,9 +81,13 @@ export default async function ProductPage({
           ))}
         </dl>
         <p className="mt-6 text-sm text-slate-500">
-          Need a COA? See the{" "}
+          Questions about an ingredient or batch? See{" "}
           <Link className="underline" href="/certificates">
-            certificates library
+            quality standards
+          </Link>{" "}
+          or{" "}
+          <Link className="underline" href="/contact">
+            contact us
           </Link>
           .
         </p>

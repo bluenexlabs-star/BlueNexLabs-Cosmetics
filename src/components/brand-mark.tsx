@@ -107,7 +107,7 @@ export function BrandLockup({
           onDark ? "text-slate-300" : "text-[#3E424D]",
         )}
       >
-        Peptides you can trust
+        Cosmetics you can trust
       </span>
     </span>
   );

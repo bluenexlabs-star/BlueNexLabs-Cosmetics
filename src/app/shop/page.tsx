@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { CategoryNav } from "@/components/category-nav";
+import { ComingSoon } from "@/components/coming-soon";
 import { ShopSearchForm } from "@/components/shop-search-form";
 import { ALL_CATALOG_SLUG, CATEGORIES } from "@/lib/constants";
+import { storefrontProductWhere } from "@/lib/legacy-catalog";
 import { prisma } from "@/lib/prisma";
 import { productSearchWhere } from "@/lib/search";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Shop research peptides" };
+export const metadata: Metadata = { title: "Shop cosmetic and face additives" };
 
 export default async function ShopPage({
   searchParams,
@@ -21,8 +23,7 @@ export default async function ShopPage({
 
   const rows = await prisma.product.findMany({
     where: {
-      active: true,
-      ...(searching && q ? productSearchWhere(q) : {}),
+      ...storefrontProductWhere(searching && q ? productSearchWhere(q) : {}),
     },
     include: { variants: true },
     orderBy: { sortOrder: "asc" },
@@ -42,19 +43,29 @@ export default async function ShopPage({
       <p className="text-xs font-semibold uppercase tracking-widest text-cyan-700">
         Catalog
       </p>
-      <h1 className="display mt-1 text-3xl text-navy-900">Research peptides</h1>
+      <h1 className="display mt-1 text-3xl text-navy-900">
+        Cosmetic and face additives
+      </h1>
       <p className="mt-2 max-w-2xl text-slate-600">
-        Lyophilized research materials with listed vial sizes and CAD pricing.
-        Stock is live — sold-out SKUs cannot be added to the cart.
+        Cosmetic and face additives with CAD pricing. Stock is live — sold-out
+        items cannot be added to the cart.
       </p>
 
-      <ShopSearchForm category={category} q={q} />
-
-      <CategoryNav
-        products={products}
-        initialOpen={initialOpen}
-        searching={searching}
-      />
+      {products.length === 0 && !searching ? (
+        <ComingSoon title="Shop catalog coming soon">
+          The product list will be added later. This shop stays empty until
+          that catalog drop — no placeholder SKUs.
+        </ComingSoon>
+      ) : (
+        <>
+          <ShopSearchForm category={category} q={q} />
+          <CategoryNav
+            products={products}
+            initialOpen={initialOpen}
+            searching={searching}
+          />
+        </>
+      )}
     </div>
   );
 }

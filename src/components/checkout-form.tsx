@@ -50,7 +50,7 @@ export function CheckoutForm({ prefill }: { prefill: Prefill }) {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
         if (!form.get("ruo")) {
-          toast.error("Please confirm research-use only terms.");
+          toast.error("Please accept the terms to continue.");
           return;
         }
         setPending(true);
@@ -203,8 +203,8 @@ export function CheckoutForm({ prefill }: { prefill: Prefill }) {
         </div>
         <label className="flex items-start gap-2 text-sm text-slate-700">
           <input type="checkbox" name="ruo" className="mt-1" required />
-          I confirm these products are for laboratory research use only, not for
-          human or veterinary use, and I accept the{" "}
+          I confirm I am purchasing cosmetic and face additives for personal
+          use, will follow product labels, and I accept the{" "}
           <Link href="/terms" className="underline">
             terms
           </Link>

@@ -72,7 +72,7 @@ export function ArticleForm({ post }: { post?: PostInput }) {
       </div>
       <div>
         <Label htmlFor="category">Category</Label>
-        <Input id="category" name="category" defaultValue={post?.category ?? "Research"} className="mt-1" />
+        <Input id="category" name="category" defaultValue={post?.category ?? "Journal"} className="mt-1" />
       </div>
       <div>
         <Label htmlFor="coverImageUrl">Cover image URL</Label>

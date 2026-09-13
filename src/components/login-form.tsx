@@ -61,7 +61,7 @@ export function LoginForm() {
           {pending ? "Signing in…" : "Sign in"}
         </Button>
         <p className="text-xs text-slate-500">
-          Demo researcher: researcher@example.com / research123
+          Demo customer: researcher@example.com / research123
         </p>
       </form>
     </div>
