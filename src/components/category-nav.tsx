@@ -2,24 +2,24 @@
 
 import { useEffect, useState, type ReactNode } from "react";
 import {
-  Activity,
-  Brain,
-  FlaskConical,
-  Scale,
-  Share2,
-  Zap,
+  Droplets,
+  Flower2,
+  Package,
+  Shield,
+  Sparkles,
+  SprayCan,
 } from "lucide-react";
 import { ProductCard, type ProductCardData } from "@/components/product-card";
 import { ALL_CATALOG_SLUG, CATEGORIES } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 const ICONS = {
-  metabolic: Scale,
-  cellular: Share2,
-  mitochondrial: Zap,
-  ghs: Activity,
-  cognitive: Brain,
-  other: FlaskConical,
+  hydration: Droplets,
+  barrier: Shield,
+  brightening: Sparkles,
+  aging: Flower2,
+  cleansing: SprayCan,
+  other: Package,
 } as const;
 
 function CategoryButton({
@@ -48,7 +48,7 @@ function CategoryButton({
   );
 }
 
-function AllPeptidesButton({
+function AllProductsButton({
   selected,
   onClick,
 }: {
@@ -58,14 +58,14 @@ function AllPeptidesButton({
   return (
     <CategoryButton selected={selected} onClick={onClick}>
       <span className="flex h-10 w-10 items-center justify-center rounded-full bg-sky-400/20 text-sky-300">
-        <FlaskConical className="h-5 w-5" />
+        <Package className="h-5 w-5" />
       </span>
       <span>
         <span className="block text-[11px] uppercase tracking-[0.16em] text-sky-200">
           Catalog
         </span>
         <span className="block text-sm font-semibold uppercase tracking-wide">
-          All peptides
+          All products
         </span>
       </span>
     </CategoryButton>
@@ -147,7 +147,7 @@ export function CategoryNav({
   return (
     <>
       <div className="mt-6 hidden gap-3 lg:grid lg:grid-cols-3">
-        <AllPeptidesButton
+        <AllProductsButton
           selected={openSlug === ALL_CATALOG_SLUG}
           onClick={() => toggle(ALL_CATALOG_SLUG)}
         />
@@ -168,7 +168,7 @@ export function CategoryNav({
 
       <div className="mt-6 flex flex-col gap-3 lg:hidden">
         <div className="flex flex-col gap-3">
-          <AllPeptidesButton
+          <AllProductsButton
             selected={openSlug === ALL_CATALOG_SLUG}
             onClick={() => toggle(ALL_CATALOG_SLUG)}
           />

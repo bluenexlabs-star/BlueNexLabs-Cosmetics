@@ -13,11 +13,11 @@ const sans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "BlueNex Labs | COA-certified research peptides in Canada",
+    default: "BlueNex Labs | Korean skincare & cosmetic ingredients in Canada",
     template: "%s | BlueNex Labs",
   },
   description:
-    "Canadian supplier of COA-certified research peptides. Ships domestically with Interac e-Transfer checkout, batch documentation, and research-use-only materials.",
+    "Canadian shop for high-quality Korean skincare and cosmetic ingredients. Ships domestically with Interac e-Transfer checkout.",
 };
 
 export default async function RootLayout({

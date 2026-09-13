@@ -64,8 +64,8 @@ export function ShopSearchForm({
           name="q"
           value={value}
           onChange={(event) => setValue(event.target.value)}
-          placeholder="Search peptides…"
-          aria-label="Search peptides"
+          placeholder="Search products…"
+          aria-label="Search products"
           autoComplete="off"
           className="h-10 w-full rounded-md border border-navy-200 bg-white px-3 pr-10 text-sm"
         />

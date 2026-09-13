@@ -21,17 +21,18 @@ export default function AboutPage() {
             <div className="mt-6 space-y-5 text-[17px] leading-8 text-slate-600">
               <p>
                 We are a team of very passionate individuals that have been
-                researching peptides for many years and finally wanted to bring
-                the research to the{" "}
+                working with cosmetic ingredients and Korean skin-care
+                formulas for many years and finally wanted to bring that
+                standard to a{" "}
                 <strong className="font-semibold text-navy-900">
-                  Canadian research platform
+                  Canadian cosmetics shop
                 </strong>
                 .
               </p>
               <p>
                 We are very involved in what we do, are hands on, and always
-                learning the latest research data on peptides and any new
-                discoveries.
+                learning the latest in skin-care science, formulation quality,
+                and new ingredient discoveries.
               </p>
               <p>
                 Our founder,{" "}
@@ -39,9 +40,10 @@ export default function AboutPage() {
                   Alice Kay
                 </strong>
                 , has a Ph.D. in Biochemistry and a long track record of
-                research and development in various biotechnological elements
-                and peptide science. She achieved her Ph.D. in 2024 and pursued
-                a study of peptides prior to launching BlueNex Labs in 2025.
+                research and development in biotechnological and cosmetic
+                ingredient work. She achieved her Ph.D. in 2024 and focused on
+                high-quality skin-care materials prior to launching BlueNex
+                Labs in 2025.
               </p>
               <p>
                 Being able to provide the{" "}
@@ -52,9 +54,9 @@ export default function AboutPage() {
                 <strong className="font-semibold text-navy-900">
                   best customer service
                 </strong>{" "}
-                is the mantra of BlueNex Labs. This Canadian bench exists so
-                laboratories can source COA-backed materials without waiting on
-                a US warehouse or a customs hold.
+                is the mantra of BlueNex Labs. This Canadian shop exists so
+                customers can source considered cosmetic ingredients without
+                waiting on a US warehouse or a customs hold.
               </p>
             </div>
           </div>
@@ -64,7 +66,7 @@ export default function AboutPage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/alice-kay-portrait.png"
-              alt="Alice Kay, founder of BlueNex Labs, in the laboratory"
+              alt="Alice Kay, founder of BlueNex Labs"
               className="aspect-[4/5] w-full object-cover object-[center_18%]"
             />
             <figcaption className="border-t border-navy-800 bg-navy-950 px-5 py-4 text-white">
@@ -82,20 +84,20 @@ export default function AboutPage() {
           Burnaby, British Columbia
         </p>
         <h2 className="display mt-2 text-3xl text-navy-900">
-          A Canadian bench for research peptides
+          A Canadian shop for Korean skincare
         </h2>
         <div className="prose-article mt-6">
           <p>
-            Lots are purchased from audited manufacturers, then reviewed against
-            third-party identity and purity data. Popular families carry
-            endotoxin screening. Vial caps are colour-coded to the batch on the
-            COA so receiving teams can match glass to paperwork in seconds.
+            Ingredients and formulas are sourced from vetted suppliers, then
+            reviewed for cosmetic quality before they reach the shop. We
+            prioritize transparency, consistent batches, and documentation as
+            the catalog launches.
           </p>
           <h2>What we will not do</h2>
           <p>
-            We do not sell for human or veterinary use, and we do not publish
-            reconstitution “protocols” for self-administration. Product copy
-            stays inside laboratory context: storage, identity, and documentation.
+            We do not make drug, diagnostic, or treatment claims, and we do not
+            present cosmetics as medicines. Product copy stays inside skin-care
+            retail: use, storage, ingredients, and quality.
           </p>
           <h2>Fulfillment</h2>
           <p>

@@ -1,23 +1,25 @@
 import Link from "next/link";
+import { ComingSoon } from "@/components/coming-soon";
 import { ProductCard } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
 import { articleImageSrc } from "@/lib/article-image";
 import { CATEGORIES, SITE } from "@/lib/constants";
+import { storefrontPostWhere, storefrontProductWhere } from "@/lib/legacy-catalog";
 import { prisma } from "@/lib/prisma";
-import { ArrowLeftRight, FileCheck2, Truck, ShieldCheck } from "lucide-react";
+import { ArrowLeftRight, FileCheck2, Sparkles, Truck } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   const [featured, posts] = await Promise.all([
     prisma.product.findMany({
-      where: { active: true, featured: true },
+      where: storefrontProductWhere({ featured: true }),
       include: { variants: true },
       orderBy: { sortOrder: "asc" },
       take: 6,
     }),
     prisma.post.findMany({
-      where: { published: true },
+      where: storefrontPostWhere(),
       orderBy: { publishedAt: "desc" },
       take: 3,
     }),
@@ -46,19 +48,19 @@ export default async function HomePage() {
               Burnaby, British Columbia
             </p>
             <h1 className="display mt-4 text-4xl leading-tight sm:text-5xl">
-              COA-certified research peptides, fulfilled in Canada.
+              Korean skincare ingredients, fulfilled in Canada.
             </h1>
             <p className="mt-5 max-w-xl text-slate-300 leading-7">
-              BlueNex Labs supplies lyophilized research materials with batch
-              documentation, domestic Canada Post shipping, and Interac
-              e-Transfer checkout. Every listing is research-use only.
+              BlueNex Labs offers high-quality cosmetic ingredients and Korean
+              skin-care formulas with domestic Canada Post shipping and Interac
+              e-Transfer checkout. The shop catalog is being curated now.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg">
-                <Link href="/shop">Browse catalog</Link>
+                <Link href="/shop">Browse shop</Link>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="/certificates">View COA library</Link>
+                <Link href="/certificates">Quality standards</Link>
               </Button>
             </div>
             <p className="mt-6 text-xs text-slate-400">
@@ -69,8 +71,8 @@ export default async function HomePage() {
             {[
               {
                 icon: FileCheck2,
-                title: "Batch COAs",
-                body: "Purity and identity documentation for popular lots, with cap-colour batch tracking.",
+                title: "Ingredient quality",
+                body: "Cosmetic ingredients sourced from vetted suppliers, with documentation as the catalog launches.",
               },
               {
                 icon: Truck,
@@ -78,9 +80,9 @@ export default async function HomePage() {
                 body: "Canada Post Xpress from Burnaby. Typical delivery 2–4 business days after payment.",
               },
               {
-                icon: ShieldCheck,
-                title: "Research-use only",
-                body: "Not for human or veterinary use. No dosing, treatment, or medical guidance is provided.",
+                icon: Sparkles,
+                title: "Cosmetic retail",
+                body: "Sold as skin-care cosmetics. Follow each product label. We do not make drug or treatment claims.",
               },
               {
                 icon: ArrowLeftRight,
@@ -109,22 +111,29 @@ export default async function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-widest text-cyan-700">
               Catalog
             </p>
-            <h2 className="display mt-1 text-3xl text-navy-900">Featured materials</h2>
+            <h2 className="display mt-1 text-3xl text-navy-900">Featured formulas</h2>
           </div>
           <Link href="/shop" className="text-sm font-medium text-cyan-800 hover:underline">
             Shop all
           </Link>
         </div>
-        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {cards.map((p) => (
-            <ProductCard key={p.slug} product={p} />
-          ))}
-        </div>
+        {cards.length === 0 ? (
+          <ComingSoon title="Formulas launching soon">
+            We are curating Korean skincare and cosmetic ingredients for this
+            shop. Featured products will appear here once the catalog is ready.
+          </ComingSoon>
+        ) : (
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {cards.map((p) => (
+              <ProductCard key={p.slug} product={p} />
+            ))}
+          </div>
+        )}
       </section>
 
       <section className="bg-white">
         <div className="mx-auto max-w-6xl px-4 py-14">
-          <h2 className="display text-3xl text-navy-900">Research categories</h2>
+          <h2 className="display text-3xl text-navy-900">Shop by concern</h2>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {CATEGORIES.map((c) => (
               <Link
@@ -145,41 +154,48 @@ export default async function HomePage() {
 
       <section className="mx-auto max-w-6xl px-4 py-14">
         <div className="flex items-end justify-between">
-          <h2 className="display text-3xl text-navy-900">From the research hub</h2>
+          <h2 className="display text-3xl text-navy-900">From the journal</h2>
           <Link href="/research" className="text-sm font-medium text-cyan-800 hover:underline">
             All articles
           </Link>
         </div>
-        <div className="mt-8 grid gap-5 lg:grid-cols-3">
-          {posts.map((post) => {
-            const imageSrc = articleImageSrc(post.slug, post.coverImageUrl);
-            return (
-              <Link
-                key={post.id}
-                href={`/research/${post.slug}`}
-                className="overflow-hidden rounded-xl border border-navy-100 bg-white hover:shadow-sm"
-              >
-                {imageSrc ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={imageSrc}
-                    alt=""
-                    className="h-40 w-full object-cover"
-                  />
-                ) : null}
-                <div className="p-5">
-                  <p className="text-xs uppercase tracking-wide text-cyan-800">
-                    {post.category}
-                  </p>
-                  <h3 className="mt-2 font-semibold text-navy-900">{post.title}</h3>
-                  <p className="mt-2 line-clamp-3 text-sm text-slate-600">
-                    {post.excerpt}
-                  </p>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
+        {posts.length === 0 ? (
+          <ComingSoon title="Journal coming soon">
+            Guides on Korean skincare routines, ingredient quality, and
+            at-home skin care will appear here.
+          </ComingSoon>
+        ) : (
+          <div className="mt-8 grid gap-5 lg:grid-cols-3">
+            {posts.map((post) => {
+              const imageSrc = articleImageSrc(post.slug, post.coverImageUrl);
+              return (
+                <Link
+                  key={post.id}
+                  href={`/research/${post.slug}`}
+                  className="overflow-hidden rounded-xl border border-navy-100 bg-white hover:shadow-sm"
+                >
+                  {imageSrc ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={imageSrc}
+                      alt=""
+                      className="h-40 w-full object-cover"
+                    />
+                  ) : null}
+                  <div className="p-5">
+                    <p className="text-xs uppercase tracking-wide text-cyan-800">
+                      {post.category}
+                    </p>
+                    <h3 className="mt-2 font-semibold text-navy-900">{post.title}</h3>
+                    <p className="mt-2 line-clamp-3 text-sm text-slate-600">
+                      {post.excerpt}
+                    </p>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        )}
       </section>
 
       <section className="bg-navy-900 text-white">

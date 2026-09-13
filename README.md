@@ -1,6 +1,6 @@
 # BlueNexLabs-Cosmetics
 
-A Korean skin-care cosmetics e-commerce store selling high-quality cosmetic ingredients for skin-care.
+A Korean skin-care cosmetics e-commerce store selling high-quality cosmetic ingredients for skin-care. The storefront shell matches the BlueNex Labs shop layout; the product catalog is curated separately and is empty until cosmetics SKUs are added.
 
 Built with Next.js, Prisma, and SQLite locally. On Vercel the site is hosted by Vercel and the database lives in **Supabase** (Postgres). Checkout is Interac e-Transfer only.
 
@@ -22,7 +22,9 @@ Copy `.env.example` to `.env` and set `SESSION_SECRET` (32+ characters), admin c
 ## Demo logins
 
 - Admin: `admin@bluenexlabs.com` / `bluenex-admin-2026`
-- Researcher: `researcher@example.com` / `research123`
+- Customer: `researcher@example.com` / `research123`
+
+`npm run db:seed` creates those users only. It does **not** import the inherited peptide catalog in `prisma/seed-data.json`. Set `SEED_LEGACY_CATALOG=true` only if you intentionally need that leftover data.
 
 ## What is included
 

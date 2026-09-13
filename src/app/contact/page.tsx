@@ -12,14 +12,13 @@ export default function ContactPage() {
   return (
     <div className="mx-auto grid max-w-5xl gap-10 px-4 py-12 lg:grid-cols-2">
       <div>
-        <h1 className="display text-4xl text-navy-900">Contact the lab desk</h1>
+        <h1 className="display text-4xl text-navy-900">Contact the shop</h1>
         <p className="mt-4 text-slate-600 leading-7">
-          Need a COA? See the{" "}
+          Questions about an order, an upcoming formula, or our{" "}
           <Link className="underline" href="/certificates">
-            certificates library
+            quality standards
           </Link>
-          . Backorder questions and institutional invoices go to {SITE.email}.
-          We answer within one business day.
+          ? Write to {SITE.email}. We answer within one business day.
         </p>
         <p className="mt-4 text-sm text-slate-500">
           {SITE.address}

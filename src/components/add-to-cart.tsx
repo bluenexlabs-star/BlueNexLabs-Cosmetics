@@ -44,7 +44,7 @@ export function AddToCart({
   return (
     <div className="space-y-4">
       <div>
-        <p className="text-sm font-medium text-navy-800">Vial size</p>
+        <p className="text-sm font-medium text-navy-800">Size</p>
         <div className="mt-2 flex flex-wrap gap-2">
           {variants.map((v) => (
             <button

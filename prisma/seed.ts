@@ -124,7 +124,62 @@ async function syncCatalog(products: ProductSeed[]) {
   return { created, updated, variantsCreated };
 }
 
+async function ensureUsers() {
+  const adminEmail = process.env.ADMIN_EMAIL ?? "admin@bluenexlabs.com";
+  const existingAdmin = await prisma.user.findUnique({
+    where: { email: adminEmail },
+  });
+  if (!existingAdmin) {
+    const adminHash = await bcrypt.hash(
+      process.env.ADMIN_PASSWORD ?? "bluenex-admin-2026",
+      10,
+    );
+    await prisma.user.create({
+      data: {
+        email: adminEmail,
+        passwordHash: adminHash,
+        name: "BlueNex Admin",
+        role: "ADMIN",
+        marketingOptIn: false,
+      },
+    });
+    console.log(`Created admin ${adminEmail}`);
+  }
+
+  const demoEmail = "researcher@example.com";
+  const existingDemo = await prisma.user.findUnique({
+    where: { email: demoEmail },
+  });
+  if (!existingDemo) {
+    const demoHash = await bcrypt.hash("research123", 10);
+    await prisma.user.create({
+      data: {
+        email: demoEmail,
+        passwordHash: demoHash,
+        name: "Alex Chen",
+        phone: "604-555-0148",
+        role: "CUSTOMER",
+        marketingOptIn: true,
+        addressLine1: "4309 Canada Way",
+        city: "Burnaby",
+        province: "BC",
+        postalCode: "V5G 1J3",
+      },
+    });
+    console.log(`Created demo customer ${demoEmail}`);
+  }
+}
+
 async function main() {
+  const seedLegacy = process.env.SEED_LEGACY_CATALOG === "true";
+  if (!seedLegacy) {
+    await ensureUsers();
+    console.log(
+      "Skipped inherited peptide catalog. Set SEED_LEGACY_CATALOG=true to import prisma/seed-data.json.",
+    );
+    return;
+  }
+
   const dataPath = path.join(__dirname, "seed-data.json");
   const data = JSON.parse(fs.readFileSync(dataPath, "utf8")) as {
     products: ProductSeed[];

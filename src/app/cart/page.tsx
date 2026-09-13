@@ -23,7 +23,7 @@ export default function CartPage() {
       <div className="mx-auto max-w-xl px-4 py-20 text-center">
         <h1 className="display text-3xl text-navy-900">Your cart is empty</h1>
         <p className="mt-3 text-slate-600">
-          Add research materials from the catalog to start an Interac order.
+          Add products from the shop to start an Interac order.
         </p>
         <Button asChild className="mt-6">
           <Link href="/shop">Browse catalog</Link>
