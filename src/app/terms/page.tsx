@@ -50,15 +50,15 @@ export default function TermsPage() {
 
         <h2>2) Cosmetic Products (Not Medicines)</h2>
         <p>
-          All products sold by BlueNexLabs are intended as cosmetics and
-          skin-care products for topical use, unless explicitly stated
-          otherwise on the product label or listing.
+          All products sold by BlueNexLabs are intended as cosmetics and face
+          additives for topical use, unless explicitly stated otherwise on the
+          product label or listing.
         </p>
         <p>You acknowledge and agree that:</p>
         <ul>
           <li>
-            Our products are cosmetics for personal skin care, not medicines,
-            and are not intended for ingestion.
+            Our products are cosmetics and face additives for personal use, not
+            medicines, and are not intended for ingestion.
           </li>
           <li>
             Our products are not intended to diagnose, treat, cure, mitigate,
@@ -150,7 +150,7 @@ export default function TermsPage() {
 
         <h2>8) Returns, Refunds &amp; Exchanges</h2>
         <p>
-          Because many skin-care products are opened or hygiene-sensitive,
+          Because many cosmetic products are opened or hygiene-sensitive,
           returns may be restricted.
         </p>
         <p>Unless otherwise required by law:</p>

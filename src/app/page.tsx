@@ -48,12 +48,12 @@ export default async function HomePage() {
               Burnaby, British Columbia
             </p>
             <h1 className="display mt-4 text-4xl leading-tight sm:text-5xl">
-              Korean skincare ingredients, fulfilled in Canada.
+              Cosmetic and face additives, fulfilled in Canada.
             </h1>
             <p className="mt-5 max-w-xl text-slate-300 leading-7">
-              BlueNex Labs offers high-quality cosmetic ingredients and Korean
-              skin-care formulas with domestic Canada Post shipping and Interac
-              e-Transfer checkout. The shop catalog is being curated now.
+              BlueNex Labs supplies cosmetic and face additives with domestic
+              Canada Post shipping and Interac e-Transfer checkout. The shop
+              catalog is being curated now.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg">
@@ -72,7 +72,7 @@ export default async function HomePage() {
               {
                 icon: FileCheck2,
                 title: "Ingredient quality",
-                body: "Cosmetic ingredients sourced from vetted suppliers, with documentation as the catalog launches.",
+                body: "Cosmetic and face additives sourced from vetted suppliers, with documentation as the catalog launches.",
               },
               {
                 icon: Truck,
@@ -82,7 +82,7 @@ export default async function HomePage() {
               {
                 icon: Sparkles,
                 title: "Cosmetic retail",
-                body: "Sold as skin-care cosmetics. Follow each product label. We do not make drug or treatment claims.",
+                body: "Sold as cosmetics and face additives. Follow each product label. We do not make drug or treatment claims.",
               },
               {
                 icon: ArrowLeftRight,
@@ -119,8 +119,8 @@ export default async function HomePage() {
         </div>
         {cards.length === 0 ? (
           <ComingSoon title="Formulas launching soon">
-            We are curating Korean skincare and cosmetic ingredients for this
-            shop. Featured products will appear here once the catalog is ready.
+            We are preparing cosmetic and face additives for this shop.
+            Featured products will appear here once the catalog drop lands.
           </ComingSoon>
         ) : (
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -161,8 +161,8 @@ export default async function HomePage() {
         </div>
         {posts.length === 0 ? (
           <ComingSoon title="Journal coming soon">
-            Guides on Korean skincare routines, ingredient quality, and
-            at-home skin care will appear here.
+            Guides on cosmetic and face additives, quality, and how we source
+            formulas will appear here.
           </ComingSoon>
         ) : (
           <div className="mt-8 grid gap-5 lg:grid-cols-3">

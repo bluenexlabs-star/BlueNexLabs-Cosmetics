@@ -3,37 +3,37 @@ export const CATEGORIES = [
     slug: "hydration",
     name: "Hydration & Moisture",
     shortName: "Hydration",
-    blurb: "Humectants, essences, and moisture-binding skin-care ingredients.",
+    blurb: "Humectants and moisture-binding cosmetic additives for the face.",
   },
   {
     slug: "barrier",
     name: "Barrier & Recovery",
     shortName: "Skin Barrier",
-    blurb: "Ceramides, lipids, and formulas that support a calm, resilient barrier.",
+    blurb: "Ceramides, lipids, and barrier-support additives for the face.",
   },
   {
     slug: "brightening",
     name: "Brightening & Glow",
     shortName: "Brightening",
-    blurb: "Tone, radiance, and even-looking complexion ingredients.",
+    blurb: "Tone, radiance, and complexion additives for facial formulas.",
   },
   {
     slug: "aging",
     name: "Firming & Age Care",
     shortName: "Age Care",
-    blurb: "Texture, firmness, and visible-age support for daily routines.",
+    blurb: "Texture and firmness additives for daily facial formulas.",
   },
   {
     slug: "cleansing",
     name: "Cleanse & Prep",
     shortName: "Cleanse",
-    blurb: "Gentle cleansers and first-step prep for Korean skin-care routines.",
+    blurb: "Gentle cleanse and first-step prep additives.",
   },
   {
     slug: "other",
     name: "Tools & Essentials",
     shortName: "Essentials",
-    blurb: "Accessories and supporting staples for at-home skin care.",
+    blurb: "Supporting cosmetic additives and everyday staples.",
   },
 ] as const;
 

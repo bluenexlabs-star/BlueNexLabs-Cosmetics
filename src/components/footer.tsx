@@ -9,8 +9,8 @@ export function Footer() {
         <div>
           <BrandLockup onDark markClassName="h-8 w-8" />
           <p className="mt-3 text-sm leading-6">
-            Korean skincare and cosmetic ingredients fulfilled from {SITE.city}.
-            Sold as cosmetics for personal skin care — follow each product label.
+            Cosmetic and face additives fulfilled from {SITE.city}. Sold as
+            cosmetics for personal use — follow each product label.
           </p>
         </div>
         <div>
@@ -61,8 +61,8 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-slate-500">
-        © {new Date().getFullYear()} {SITE.legal}. Cosmetic products for
-        personal skin care.{" "}
+        © {new Date().getFullYear()} {SITE.legal}. Cosmetic and face additives
+        for personal use.{" "}
         <Link href="/terms" className="underline">
           Terms
         </Link>

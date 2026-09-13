@@ -7,7 +7,7 @@ import { prisma } from "@/lib/prisma";
 import { postSearchWhere } from "@/lib/search";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Skincare journal" };
+export const metadata: Metadata = { title: "Cosmetics journal" };
 
 export default async function ResearchPage({
   searchParams,
@@ -26,17 +26,17 @@ export default async function ResearchPage({
         Knowledge hub
       </p>
       <h1 className="display mt-1 text-3xl text-navy-900">
-        Journal notes for Canadian skin care
+        Journal notes for Canadian cosmetics
       </h1>
       <p className="mt-3 max-w-2xl text-slate-600">
-        Routine tips, ingredient explainers, and quality context for Korean
-        skincare. These articles are educational and do not constitute medical
+        Explainers on cosmetic and face additives, quality, and formulation
+        context. These articles are educational and do not constitute medical
         advice.
       </p>
       {posts.length === 0 && !q ? (
         <ComingSoon title="Articles coming soon">
-          The first journal pieces will cover Korean routines, ingredient
-          quality, and how we source cosmetic formulas in Canada.
+          The first journal pieces will cover cosmetic and face additives,
+          quality, and how we source formulas in Canada.
         </ComingSoon>
       ) : (
         <>

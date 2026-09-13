@@ -1,6 +1,6 @@
 # BlueNexLabs-Cosmetics
 
-A Korean skin-care cosmetics e-commerce store selling high-quality cosmetic ingredients for skin-care. The storefront shell matches the BlueNex Labs shop layout; the product catalog is curated separately and is empty until cosmetics SKUs are added.
+A cosmetics e-commerce store for cosmetic and face additives. The storefront shell matches the BlueNex Labs shop layout; the product catalog is empty until a later catalog drop.
 
 Built with Next.js, Prisma, and SQLite locally. On Vercel the site is hosted by Vercel and the database lives in **Supabase** (Postgres). Checkout is Interac e-Transfer only.
 

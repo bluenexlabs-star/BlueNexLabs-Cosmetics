@@ -203,7 +203,7 @@ export function CheckoutForm({ prefill }: { prefill: Prefill }) {
         </div>
         <label className="flex items-start gap-2 text-sm text-slate-700">
           <input type="checkbox" name="ruo" className="mt-1" required />
-          I confirm I am purchasing cosmetic products for personal skin-care
+          I confirm I am purchasing cosmetic and face additives for personal
           use, will follow product labels, and I accept the{" "}
           <Link href="/terms" className="underline">
             terms

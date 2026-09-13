@@ -8,7 +8,7 @@ import { prisma } from "@/lib/prisma";
 import { productSearchWhere } from "@/lib/search";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Shop Korean skincare" };
+export const metadata: Metadata = { title: "Shop cosmetic and face additives" };
 
 export default async function ShopPage({
   searchParams,
@@ -43,17 +43,18 @@ export default async function ShopPage({
       <p className="text-xs font-semibold uppercase tracking-widest text-cyan-700">
         Catalog
       </p>
-      <h1 className="display mt-1 text-3xl text-navy-900">Korean skincare</h1>
+      <h1 className="display mt-1 text-3xl text-navy-900">
+        Cosmetic and face additives
+      </h1>
       <p className="mt-2 max-w-2xl text-slate-600">
-        Cosmetic ingredients and skin-care formulas with CAD pricing. Stock is
-        live — sold-out items cannot be added to the cart.
+        Cosmetic and face additives with CAD pricing. Stock is live — sold-out
+        items cannot be added to the cart.
       </p>
 
       {products.length === 0 && !searching ? (
         <ComingSoon title="Shop catalog coming soon">
-          We are preparing high-quality Korean skincare and cosmetic
-          ingredients. Browse by concern in the meantime, or email us if you
-          want to be notified when the first formulas land.
+          The product list will be added later. This shop stays empty until
+          that catalog drop — no placeholder SKUs.
         </ComingSoon>
       ) : (
         <>

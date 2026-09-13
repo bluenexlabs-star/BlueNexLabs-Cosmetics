@@ -22,8 +22,8 @@ const faqs: { q: string; a: ReactNode }[] = [
     q: "Are these cosmetic products?",
     a: (
       <>
-        Yes. Items are sold as cosmetics and skin-care products for topical
-        use. They are not medicines, and we do not make treatment claims. See
+        Yes. Items are sold as cosmetics and face additives for topical use.
+        They are not medicines, and we do not make treatment claims. See
         the{" "}
         <Link className="underline" href="/terms">
           Terms and Conditions

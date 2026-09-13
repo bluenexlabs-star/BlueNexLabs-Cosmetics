@@ -52,7 +52,7 @@ export default async function ArticlePage({
       />
       <p className="mt-10 rounded-lg bg-amber-50 p-4 text-sm text-amber-950">
         Educational only. BlueNex Labs does not provide medical or treatment
-        advice. Cosmetic products are for topical skin care — follow each
+        advice. Cosmetic and face additives are for topical use — follow each
         product label.
       </p>
     </article>

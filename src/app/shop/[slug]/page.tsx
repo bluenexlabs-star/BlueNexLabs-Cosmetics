@@ -58,7 +58,7 @@ export default async function ProductPage({
         {cat && <Badge tone="cyan">{cat.name}</Badge>}
         <h1 className="display mt-3 text-3xl text-navy-900">{product.name}</h1>
         <p className="mt-3 text-sm font-medium text-amber-800">
-          Cosmetic product for topical skin care. Follow the product label.
+          Cosmetic / face additive for topical use. Follow the product label.
         </p>
         <ProductDescription markdown={product.description} />
         <div className="mt-6">
