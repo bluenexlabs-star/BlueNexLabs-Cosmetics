@@ -17,7 +17,7 @@
         "Use": "Cosmetic additive for personal formulating"
       },
       "variants": [
-        { "sku": "COS-RET-200G", "label": "200 g pouch", "priceCents": 4900, "stock": 25 }
+        { "sku": "COS-RET-10G", "label": "10 g pouch", "priceCents": 4900, "stock": 25 }
       ]
     },
     {
@@ -37,7 +37,7 @@
         "Use": "Cosmetic additive for personal formulating"
       },
       "variants": [
-        { "sku": "COS-NIA-50G", "label": "50 g pouch", "priceCents": 2900, "stock": 40 }
+        { "sku": "COS-NIA-10G", "label": "10 g pouch", "priceCents": 2900, "stock": 40 }
       ]
     },
     {
@@ -57,7 +57,7 @@
         "Use": "Cosmetic additive for personal formulating"
       },
       "variants": [
-        { "sku": "COS-HA-250G", "label": "250 g pouch", "priceCents": 3900, "stock": 30 }
+        { "sku": "COS-HA-25G", "label": "25 g pouch", "priceCents": 3900, "stock": 30 }
       ]
     },
     {
@@ -77,7 +77,7 @@
         "Use": "Cosmetic additive for personal formulating"
       },
       "variants": [
-        { "sku": "COS-CTP-100G", "label": "100 g pouch", "priceCents": 5900, "stock": 25 }
+        { "sku": "COS-CTP-10G", "label": "10 g pouch", "priceCents": 5900, "stock": 25 }
       ]
     },
     {
@@ -97,7 +97,7 @@
         "Use": "Cosmetic additive for personal formulating"
       },
       "variants": [
-        { "sku": "COS-EGF-200G", "label": "200 g pouch", "priceCents": 8900, "stock": 15 }
+        { "sku": "COS-EGF-5G", "label": "5 g pouch", "priceCents": 8900, "stock": 15 }
       ]
     },
     {
@@ -118,7 +118,7 @@
         "Use": "Cosmetic additive for personal formulating"
       },
       "variants": [
-        { "sku": "COS-AH38-100G", "label": "100 g pouch", "priceCents": 7900, "stock": 20 }
+        { "sku": "COS-AH38-5G", "label": "5 g pouch", "priceCents": 7900, "stock": 20 }
       ]
     }
   ]
