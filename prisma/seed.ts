@@ -174,8 +174,19 @@ async function main() {
   const seedLegacy = process.env.SEED_LEGACY_CATALOG === "true";
   if (!seedLegacy) {
     await ensureUsers();
+    const catalogPath = path.join(__dirname, "cosmetics-catalog.json");
+    const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8")) as {
+      products: ProductSeed[];
+    };
+    const { created, updated, variantsCreated } = await syncCatalog(
+      catalog.products,
+    );
     console.log(
-      "Skipped inherited peptide catalog. Set SEED_LEGACY_CATALOG=true to import prisma/seed-data.json.",
+      `Cosmetics catalog sync: ${created} product(s) added, ${updated} updated` +
+        (variantsCreated ? `, ${variantsCreated} variant(s) added.` : "."),
+    );
+    console.log(
+      "Inherited peptide catalog was not imported. Set SEED_LEGACY_CATALOG=true to import prisma/seed-data.json.",
     );
     return;
   }
