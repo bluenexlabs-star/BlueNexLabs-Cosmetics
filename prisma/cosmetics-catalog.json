@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "name": "Retinol",
+      "slug": "retinol",
+      "category": "Vitamin Actives",
+      "description": "Vitamin A (retinol) powder for cosmetic formulating. Supports the look of smoother texture and refined tone with regular leave-on use. Oil-soluble; light- and air-sensitive. Store cool, dry, and sealed. For cosmetic / personal use only — follow label guidance and use daytime SPF.",
+      "imageUrl": "/images/products/retinol.png",
+      "featured": true,
+      "active": true,
+      "sortOrder": 10,
+      "specs": {
+        "INCI": "Retinol",
+        "Form": "Powder",
+        "Solubility": "Oil-soluble",
+        "Storage": "Cool, dry, sealed, protect from light",
+        "Use": "Cosmetic additive for personal formulating"
+      },
+      "variants": [
+        { "sku": "COS-RET-200G", "label": "200 g pouch", "priceCents": 4900, "stock": 25 }
+      ]
+    },
+    {
+      "name": "Niacinamide",
+      "slug": "niacinamide",
+      "category": "Vitamin Actives",
+      "description": "Vitamin B3 (niacinamide / nicotinamide) powder. A versatile water-soluble active used for barrier support and the look of more even tone, calmer skin, and refined pores. Easy to dissolve in aqueous serums and gels.",
+      "imageUrl": "/images/products/niacinamide.png",
+      "featured": true,
+      "active": true,
+      "sortOrder": 20,
+      "specs": {
+        "INCI": "Niacinamide",
+        "Form": "Powder",
+        "Solubility": "Water-soluble",
+        "Storage": "Cool and dry",
+        "Use": "Cosmetic additive for personal formulating"
+      },
+      "variants": [
+        { "sku": "COS-NIA-50G", "label": "50 g pouch", "priceCents": 2900, "stock": 40 }
+      ]
+    },
+    {
+      "name": "Hyaluronic Acid (Low Molecular Weight)",
+      "slug": "hyaluronic-acid-lmw",
+      "category": "Hydration",
+      "description": "Low-molecular-weight hyaluronic acid / sodium hyaluronate powder. A humectant that binds water for a hydrated, plump look. Highly water-soluble; forms a thinner solution than high-MW grades. Keep sealed to avoid moisture pickup.",
+      "imageUrl": "/images/products/hyaluronic-acid.png",
+      "featured": true,
+      "active": true,
+      "sortOrder": 30,
+      "specs": {
+        "INCI": "Sodium Hyaluronate / Hyaluronic Acid",
+        "Form": "Low molecular weight powder",
+        "Solubility": "Water-soluble",
+        "Storage": "Cool, dry, sealed",
+        "Use": "Cosmetic additive for personal formulating"
+      },
+      "variants": [
+        { "sku": "COS-HA-250G", "label": "250 g pouch", "priceCents": 3900, "stock": 30 }
+      ]
+    },
+    {
+      "name": "Collagen Tripeptide (CTP)",
+      "slug": "collagen-tripeptide",
+      "category": "Peptides",
+      "description": "Collagen tripeptide powder (CTP) — short glycine–proline–hydroxyproline fragments used in cosmetics for the look of firmness and hydration support. Generally water-soluble; add in cool-down when possible. Cosmetic / personal use only.",
+      "imageUrl": "/images/products/collagen-tripeptide.png",
+      "featured": false,
+      "active": true,
+      "sortOrder": 40,
+      "specs": {
+        "INCI": "Collagen Tripeptide / Hydrolyzed Collagen (verify batch COA)",
+        "Form": "Powder",
+        "Solubility": "Water-soluble",
+        "Storage": "Cool and dry",
+        "Use": "Cosmetic additive for personal formulating"
+      },
+      "variants": [
+        { "sku": "COS-CTP-100G", "label": "100 g pouch", "priceCents": 5900, "stock": 25 }
+      ]
+    },
+    {
+      "name": "EGF Powder",
+      "slug": "egf-powder",
+      "category": "Specialty Actives",
+      "description": "EGF-class cosmetic powder (typically sh-Oligopeptide-1 / recombinant epidermal growth factor analog). Marketed for the look of renewal and repair in leave-on formulas. Water-soluble but heat- and pH-sensitive — add below ~40°C. Confirm identity and purity with your batch COA. Cosmetic / personal use only.",
+      "imageUrl": "/images/products/egf.png",
+      "featured": false,
+      "active": true,
+      "sortOrder": 50,
+      "specs": {
+        "INCI": "sh-Oligopeptide-1 (typical; confirm COA)",
+        "Form": "Powder",
+        "Solubility": "Water-soluble (fragile)",
+        "Storage": "Cool, dry, sealed",
+        "Use": "Cosmetic additive for personal formulating"
+      },
+      "variants": [
+        { "sku": "COS-EGF-200G", "label": "200 g pouch", "priceCents": 8900, "stock": 15 }
+      ]
+    },
+    {
+      "name": "Acetyl Hexapeptide-38",
+      "slug": "acetyl-hexapeptide-38",
+      "category": "Peptides",
+      "description": "Acetyl Hexapeptide-38 powder (often known as Adifyline®). A water-soluble hexapeptide used in cosmetics for a plumper, fuller look that can soften the appearance of lines. Freely dissolves in the water phase; typically add in cool-down. Cosmetic / personal use only.",
+      "imageUrl": "/images/products/acetyl-hexapeptide-38.png",
+      "featured": false,
+      "active": true,
+      "sortOrder": 60,
+      "specs": {
+        "INCI": "Acetyl Hexapeptide-38",
+        "CAS": "1400634-44-7",
+        "Form": "Powder",
+        "Solubility": "Water-soluble",
+        "Storage": "Cool and dry",
+        "Use": "Cosmetic additive for personal formulating"
+      },
+      "variants": [
+        { "sku": "COS-AH38-100G", "label": "100 g pouch", "priceCents": 7900, "stock": 20 }
+      ]
+    }
+  ]
+}

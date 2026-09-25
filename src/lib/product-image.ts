@@ -12,9 +12,9 @@ export function localProductImagePath(slug: string) {
 
 /**
  * Resolve the photo to render for a product.
- * Production DBs still store Squarespace CDN URLs from the first seed.
- * Those either 404 or show the old cube labels. Prefer the composited
- * slug PNG that ships in `public/images/products/`.
+ * Remote catalog URLs fall back to the slug PNG in `public/images/products/`.
+ * An explicit local path is used as stored, so pouch photos whose filename
+ * differs from the product slug still render.
  */
 export function productImageSrc(slug: string, imageUrl?: string | null) {
   const local = localProductImagePath(slug);
@@ -22,6 +22,10 @@ export function productImageSrc(slug: string, imageUrl?: string | null) {
   if (imageUrl.startsWith("http://") || imageUrl.startsWith("https://")) {
     return local;
   }
-  if (imageUrl.startsWith("/images/products/")) return local;
+  if (imageUrl.startsWith("/images/products/")) {
+    const pathOnly = imageUrl.split("?")[0];
+    if (pathOnly === `/images/products/${slug}.png`) return local;
+    return pathOnly;
+  }
   return imageUrl;
 }
